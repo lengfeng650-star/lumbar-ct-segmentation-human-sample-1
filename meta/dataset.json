@@ -2,6 +2,7 @@
   "dataset_id": "lumbar-ct-segmentation-human-sample-1",
   "name": "腰骶部CT人工分割标注样本1例",
   "version": "1.0",
+  "description": "1例腰骶部CT及对应人工分割掩码，标注腰骶部骨与肌肉，共16个非零类别。",
   "modality": "CT",
   "anatomical_region": "腰骶部",
   "sample_count": 1,
@@ -13,8 +14,18 @@
     "version": "5.12.4"
   },
   "machine_model": null,
+  "deidentification": {
+    "public_case_id_format": "case-NNNN",
+    "source_identifiers_published": false,
+    "nifti_free_text_fields_empty": true,
+    "nifti_extensions_present": false,
+    "gzip_original_filename_present": false,
+    "voxel_values_preserved": true,
+    "spatial_geometry_preserved": true,
+    "gzip_timestamp_present": false
+  },
   "label_semantics_status": "inferred",
-  "label_semantics_basis": "根据CT影像、掩码位置与双侧对称关系推定；源标签字典未提供",
+  "label_semantics_basis": "CT影像、掩码位置与双侧对应关系",
   "lesion_annotation": "未提供独立病灶类别",
   "license": "other",
   "license_status": "not_specified",
