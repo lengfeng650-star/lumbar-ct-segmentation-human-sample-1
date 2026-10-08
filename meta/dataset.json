@@ -1,0 +1,221 @@
+{
+  "dataset_id": "lumbar-ct-segmentation-human-sample-1",
+  "name": "腰骶部CT人工分割标注样本1例",
+  "version": "1.0",
+  "modality": "CT",
+  "anatomical_region": "腰骶部",
+  "sample_count": 1,
+  "sample_unit": "例",
+  "annotation_type": "human",
+  "annotator_qualification": "三甲医院放射科主任医师级别",
+  "annotation_software": {
+    "name": "3D Slicer",
+    "version": "5.12.4"
+  },
+  "machine_model": null,
+  "label_semantics_status": "inferred",
+  "label_semantics_basis": "根据CT影像、掩码位置与双侧对称关系推定；源标签字典未提供",
+  "lesion_annotation": "未提供独立病灶类别",
+  "license": "other",
+  "license_status": "not_specified",
+  "label_dictionary": [
+    {
+      "value": 0,
+      "anatomical_structure": "background",
+      "name_zh": "背景",
+      "semantic_status": "background"
+    },
+    {
+      "value": 1,
+      "anatomical_structure": "vertebra_l1",
+      "name_zh": "第1腰椎（推定L1）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 2,
+      "anatomical_structure": "vertebra_l2",
+      "name_zh": "第2腰椎（推定L2）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 3,
+      "anatomical_structure": "vertebra_l3",
+      "name_zh": "第3腰椎（推定L3）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 4,
+      "anatomical_structure": "vertebra_l4",
+      "name_zh": "第4腰椎（推定L4）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 5,
+      "anatomical_structure": "vertebra_l5",
+      "name_zh": "第5腰椎（推定L5）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 6,
+      "anatomical_structure": "sacrum",
+      "name_zh": "骶骨",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 7,
+      "anatomical_structure": "multifidus_right",
+      "name_zh": "右侧多裂肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 8,
+      "anatomical_structure": "erector_spinae_right",
+      "name_zh": "右侧竖脊肌群",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 9,
+      "anatomical_structure": "psoas_major_right",
+      "name_zh": "右侧腰大肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 10,
+      "anatomical_structure": "quadratus_lumborum_right",
+      "name_zh": "右侧腰方肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 14,
+      "anatomical_structure": "psoas_major_left",
+      "name_zh": "左侧腰大肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 15,
+      "anatomical_structure": "quadratus_lumborum_left",
+      "name_zh": "左侧腰方肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 16,
+      "anatomical_structure": "erector_spinae_left",
+      "name_zh": "左侧竖脊肌群",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 17,
+      "anatomical_structure": "multifidus_left",
+      "name_zh": "左侧多裂肌",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 18,
+      "anatomical_structure": "hip_bone_left",
+      "name_zh": "左侧髋骨（扫描范围内）",
+      "semantic_status": "inferred"
+    },
+    {
+      "value": 19,
+      "anatomical_structure": "hip_bone_right",
+      "name_zh": "右侧髋骨（扫描范围内）",
+      "semantic_status": "inferred"
+    }
+  ],
+  "paired_dataset_id": "lumbar-ct-segmentation-machine-sample-6",
+  "shared_case_ids": [
+    "case-0004"
+  ],
+  "case_label_statistics": [
+    {
+      "case_id": "case-0004",
+      "labels": [
+        {
+          "value": 0,
+          "voxel_count": 58239440,
+          "volume_mm3": 5915298.434
+        },
+        {
+          "value": 1,
+          "voxel_count": 487761,
+          "volume_mm3": 49541.202
+        },
+        {
+          "value": 2,
+          "voxel_count": 566794,
+          "volume_mm3": 57568.474
+        },
+        {
+          "value": 3,
+          "voxel_count": 670958,
+          "volume_mm3": 68148.265
+        },
+        {
+          "value": 4,
+          "voxel_count": 664899,
+          "volume_mm3": 67532.861
+        },
+        {
+          "value": 5,
+          "voxel_count": 691530,
+          "volume_mm3": 70237.735
+        },
+        {
+          "value": 6,
+          "voxel_count": 1768308,
+          "volume_mm3": 179604.569
+        },
+        {
+          "value": 7,
+          "voxel_count": 625794,
+          "volume_mm3": 63561.021
+        },
+        {
+          "value": 8,
+          "voxel_count": 1504316,
+          "volume_mm3": 152791.271
+        },
+        {
+          "value": 9,
+          "voxel_count": 1191989,
+          "volume_mm3": 121068.655
+        },
+        {
+          "value": 10,
+          "voxel_count": 206126,
+          "volume_mm3": 20935.929
+        },
+        {
+          "value": 14,
+          "voxel_count": 1268239,
+          "volume_mm3": 128813.261
+        },
+        {
+          "value": 15,
+          "voxel_count": 358106,
+          "volume_mm3": 36372.325
+        },
+        {
+          "value": 16,
+          "voxel_count": 1561307,
+          "volume_mm3": 158579.767
+        },
+        {
+          "value": 17,
+          "voxel_count": 620676,
+          "volume_mm3": 63041.193
+        },
+        {
+          "value": 18,
+          "voxel_count": 1303228,
+          "volume_mm3": 132367.045
+        },
+        {
+          "value": 19,
+          "voxel_count": 622273,
+          "volume_mm3": 63203.398
+        }
+      ]
+    }
+  ]
+}
