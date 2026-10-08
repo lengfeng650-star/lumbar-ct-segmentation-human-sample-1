@@ -18,7 +18,6 @@ configs:
   data_files:
   - split: train
     path: meta/records.jsonl
-license_name: 未指定独立许可证
 ---
 
 # 腰骶部CT人工分割标注样本1例
